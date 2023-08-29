@@ -1,5 +1,9 @@
 <?php
     session_start();
+
+    // session_destroy();
     // $username = "John";
 
-    echo $username;
+    // $_SESSION["username"] = "John";
+
+    echo $_SESSION["username"];
