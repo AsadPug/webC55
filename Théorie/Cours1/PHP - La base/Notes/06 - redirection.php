@@ -1,3 +1,9 @@
+<?php
+	header("location: 01 - variables.php");
+	exit;
+
+	//DELETE FROM courses;
+?>
 <!DOCTYPE html>
 <html lang="fr">
 	<head>

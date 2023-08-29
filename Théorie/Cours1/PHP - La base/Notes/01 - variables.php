@@ -1,5 +1,12 @@
 <?php
-	echo "salut!";
+#
+/* */
+	// phpt
+	$username = "John";
+
+	if ($username == "Smith") {
+		echo "salut!" . $username;
+	}
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -8,7 +15,12 @@
 		<meta charset="utf-8" />
 	</head>
 	<body>
-		Nom : 
+		Nom : <?php echo $username; ?><br>
+		Nom : <?= $username; ?><br>
+		<?= $username ?>
+		<?php
+			// phpe
+		?>
 	</body>
 </html>
 
