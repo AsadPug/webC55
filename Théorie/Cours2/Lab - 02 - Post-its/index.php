@@ -1,3 +1,8 @@
+<?php
+	require_once("action/indexAction.php");
+	$data = execute();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,8 +12,14 @@
 	<script src="https://notes-de-cours.com/dev/toggle-lab-info.js"></script>
 </head>
 <body>
-
-
+	<form action="" method="get">
+		text
+		<input name="texte" type="text"></input>
+		x
+		<input name="x" type="text"></input>
+		y
+		<input name="y" type="text"></input>
+	</form>
 	<footer>
 		<div>
 			<h3>Post-its (les sessions en PHP)</h3>
