@@ -14,11 +14,12 @@
 <body>
 	<form action="" method="get">
 		text
-		<input name="texte" type="text"></input>
+		<input name="texte" type="text">
 		x
-		<input name="x" type="text"></input>
+		<input name="x" type="text">
 		y
-		<input name="y" type="text"></input>
+		<input name="y" type="text">
+		<input type="submit">
 	</form>
 	<footer>
 		<div>
